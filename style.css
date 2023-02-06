@@ -26,6 +26,7 @@ nav .amazonlogo {
   width: 120px;
   margin-left: 10px;
 }
+
 nav .amazonlogo:hover {
   border: 1px white solid;
   box-sizing: border-box;
@@ -187,9 +188,10 @@ nav .searchicon:hover {
   height: auto;
   box-sizing: border-box;
 }
+
 /* third row image secion */
 #thirdsection {
-  width: 1505px;
+  width: 99%;
   height: 1000px;
   margin: 0 auto;
   /* background-color: red; */
@@ -212,11 +214,11 @@ nav .searchicon:hover {
   position: absolute;
   top: 250px;
   /* background-color: yellow; */
-  width: 1505px;
+  width: 99.99%;
   height: 1000px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 420px 420px 420px 300px 300px 300px 300px 420px;
+  grid-template-columns: repeat(4, 24%);
+  grid-template-rows: 420px 420px;
   justify-content: center;
   align-content: flex-start;
   justify-items: center;
@@ -225,7 +227,7 @@ nav .searchicon:hover {
 }
 .gridsize1 {
   height: 400px;
-  width: 350px;
+  width: 95%;
   background-color: white;
   box-sizing: border-box;
   padding: 10px;
@@ -233,7 +235,7 @@ nav .searchicon:hover {
 }
 .gridsize2 {
   height: 400px;
-  width: 350px;
+  width: 95%;
   background-color: white;
   box-sizing: border-box;
   padding: 10px;
@@ -241,7 +243,7 @@ nav .searchicon:hover {
 }
 .gridsize3 {
   height: 400px;
-  width: 350px;
+  width:  95%;
   background-color: white;
   box-sizing: border-box;
   padding: 10px;
@@ -249,7 +251,7 @@ nav .searchicon:hover {
 }
 .gridsize4 {
   height: 400px;
-  width: 350px;
+  width:  95%;
   background-color: white;
   box-sizing: border-box;
   padding: 10px;
@@ -257,7 +259,7 @@ nav .searchicon:hover {
 }
 .gridsize5 {
   height: 400px;
-  width: 350px;
+  width:  95%;
   background-color: white;
   box-sizing: border-box;
   padding: 10px;
@@ -265,7 +267,7 @@ nav .searchicon:hover {
 }
 .gridsize6 {
   height: 400px;
-  width: 350px;
+  width:  95%;
   background-color: white;
   box-sizing: border-box;
   padding: 10px;
@@ -273,7 +275,7 @@ nav .searchicon:hover {
 }
 .gridsize7 {
   height: 400px;
-  width: 350px;
+  width:  95%;
   background-color: white;
   box-sizing: border-box;
   padding: 10px;
@@ -281,7 +283,7 @@ nav .searchicon:hover {
 }
 .gridsize8 {
   height: 400px;
-  width: 350px;
+  width:  95%;
   background-color: white;
   box-sizing: border-box;
   padding: 10px;
@@ -382,114 +384,6 @@ nav .searchicon:hover {
 .todaysdeals {
   display: inline;
   margin-right: 10px;
-}
-.subwidegrid {
-  width: 100%;
-  height: 300px;
-
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-evenly;
-}
-.horizontalgriditems {
-  height: 100%;
-  width: 220px;
-}
-.horizontalgridimg {
-  width: 100%;
-  margin-top: 50px;
-  height: 150px;
-}
-.horizontalgridimg:hover {
-  cursor: pointer;
-}
-
-.horizontalgridprice {
-  width: 100%;
-  height: 80px;
-
-  margin-top: 5px;
-  line-height: 1.5;
-  overflow: hidden;
-}
-.redbox {
-  color: white;
-  background-color: #cc0c39;
-  display: inline-block;
-  width: 100px;
-  height: 25px;
-  box-sizing: border-box;
-  padding-left: 5px;
-  font-size: 15px;
-  margin-top: 15px;
-}
-.formargin {
-  margin-top: 10px;
-  color: black;
-}
-.horizontalgridlink {
-  text-decoration: none;
-  color: #cc0c39;
-}
-.widegridsecond {
-  background-color: white;
-  height: 280px;
-  width: 1480px;
-  padding: 10px;
-  box-sizing: border-box;
-  grid-row: 4;
-  grid-column: 1 / span 4;
-  padding-top: 20px;
-}
-.subwidegridsecond {
-  width: 1460px;
-  height: 215px;
-  box-sizing: border-box;
-
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-evenly;
-}
-.secondhorgriditems {
-  width: 220px;
-  height: 100%;
-}
-.horGrid2img {
-  width: 100%;
-  height: 90%;
-}
-.horGrid2img:hover {
-  cursor: pointer;
-}
-.widegridthird {
-  background-color: white;
-  height: 280px;
-  width: 1480px;
-  padding: 10px;
-  box-sizing: border-box;
-  grid-row: 5;
-  grid-column: 1 / span 4;
-  padding-top: 20px;
-}
-.widegridfourth {
-  background-color: white;
-  height: 280px;
-  width: 1480px;
-  padding: 10px;
-  box-sizing: border-box;
-  grid-row: 6;
-  grid-column: 1 / span 4;
-  padding-top: 20px;
-}
-.widegridfifth {
-  background-color: white;
-  height: 280px;
-  width: 1480px;
-  padding: 10px;
-  box-sizing: border-box;
-  grid-row: 7;
-  grid-column: 1 / span 4;
-  padding-top: 20px;
 }
 .endsection {
   width: 100%;
@@ -602,17 +496,194 @@ nav .searchicon:hover {
 .copyrightInformationdivcontent {
   color: white;
 }
+/*                                       first response setting for 1400px */
+@media (max-width: 1400px){
+  nav{
+    font-size: 14px;
+  }
+  nav .amazonlogo{
+    width: 100px;
+  }.nav2{
+    font-size: 14px;
+    gap: 5px;
+  }
+  .downloadapp {
+    width: 250px;
+  }.shoplayout{
+    font-size: 85%;
+  }
+}
+/*                                          Second response setting for 1200px */
+@media (max-width:1200px){
+  nav{
+    font-size: 13px;
+  }
+  nav .amazonlogo{
+    width: 80px;
+  }#items{
+    margin-left: 20px;
+    width: 50px;
+  }#input{
+    width: 40%;
+  }.flagicon{
+    margin-left: 10px;
+  }#language{
+    width: 40px;
+    font-size: 12px;
+  }.adgrid4img{
+    width: 200px;
+  }
+}
+/*                                          third response setting for 1100px */
+@media (max-width:1100px){
+  .location{
+    width: 50px;
+  }.flagicon{
+    margin-left: 5px;
+  }
+  .Account{
+    margin-left: 15px;
+  }.Return{
+    margin-left: 15px;
+  }
+  .cart{
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+  .nav2{
+    height: 50px;
+  }
+  .shoplayout{
+    font-size: 12px;
+  }
+}
+/*                                            Fourth response setting for 1000px */
+@media (max-width:1000px){
+  .container{
+    height: 1600px;
+  }
+  nav{
+    font-size: 12px;
+  }.menubar{
+    width: 30px;
+  }.menuicon{
+    width: 13px;
+  }.imgsection{
+    height: 400px;
+  }.downloadapp{
+    width: 200px;
+  }.app{
+    width: 200px;
+  }
+  .shoplayout{
+    grid-template-columns: repeat(3,32.5%);
+    
+  }
+  }
+  /*                                            fifth response setting for 900px */
+@media (max-width:900px){
+  #items{
+    width: 40px;
+    font-size: 8px;
+  }
+#input{
+  width: 30%;
+}
+.nav2 a{
+  padding: 2px;
+  font-size: 12px;
+}.countryoptionsselection{
+  width: 80%;
+}
+}
+  /*                                            sixth response setting for 800px */
+@media (max-width:800px){
+  .container{
+    height: 1660px;
+  }
+  nav .amazonlogo{
+    width: 70px;
+    margin-left: 5px;
+  }
+  .Account{
+    margin-left: 10px;
+  }.Return{
+    margin-left: 10px;
+  }
+  .cart{
+    margin-left: 10px;
+    
+  }
+  .nav2{
+    height: 120px;
+    flex-flow: wrap;
+    gap: 30px;
+  }.imgsection{
+    height: 350px;
+  }.endsection{
+    font-size: 14px;
+  }.moreDetailsfooter{
+    gap: 20px;
+  }.moreDetailsdivs{
+    width: 200px;
+    padding: 10px;
+  }
+}
+    /*                                            7th response setting for 700px */
+@media (max-width:700px){
+  .container{
+    height: 2000px;
+  }#items{
+    height: 30px;
+  }
+  #input{
+    height: 30px;
+    width: 28%;
+  }nav .searchicon{
+    height: 30px;
+  }
+  .flagicon{
+    width: 0px;
+    visibility: hidden;
+  }#language{
+    width: 0;
+    visibility: collapse;
+  }.nav2{
+    gap: 20px;
+  }.imgsection{
+    height: 325px;
+  }
+  .shoplayout{
+    top: 150px;
+    grid-template-columns: repeat(2,48%);
+  }.moreDetailsfooter{
+    height: 600px;
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+  }.moreDetailsdivs{
+    height: 250px;
+    
+    
+  }.moreDetailssubdiv{
+    height: 300px;
+    
+    color: black;
+  }
+}
+/* 8th response setting */
 @media (max-width: 600px) {
   body {
     font-size: 8px;
    
   }
-
   .container {
     height: 4000px;
     
   }
   nav .amazonlogo {
+    margin-left: 20px;
     width: 60px;
   }
   nav .locationlogo {
@@ -620,13 +691,13 @@ nav .searchicon:hover {
     width: 10px;
   }
   #items {
-    margin-left: 0px;
+    margin-left: 15px;
     width: 0px;
     visibility: hidden;
   }
   #input {
     width: 150px;
-    margin-left: 5px;
+    margin-left: 15px;
     height: 30px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -652,11 +723,12 @@ nav .searchicon:hover {
   }
   .Return {
     width: 50px;
-    margin-left: 0px;
+    margin-left: 10px;
     box-sizing: border-box;
-    padding-top: 15px;
+    padding-top: 0px;
   }
   .cart {
+    margin-left: 10px;
     width: 50px;
   }
   .nav2 {
@@ -674,7 +746,7 @@ nav .searchicon:hover {
   .shoplayout {
     top: 100px;
     width: 100%;
-    grid-template-columns: 450px;
+    grid-template-columns: 95%;
     grid-template-rows: repeat(8, 1fr);
     row-gap: 30px;
     grid-template-areas: "layout1";
@@ -717,3 +789,105 @@ nav .searchicon:hover {
     width: 70%;
   }
 }
+/*                               9th response 500px */
+@media (max-width:500px){
+  nav .amazonlogo{
+    margin-left: 10px;
+    height: 30px;
+  }#items{
+    margin-left: 10px;
+  }#input{
+    margin-left: 10px;
+    width: 125px;
+  }
+  .Return{
+    margin-left: 5px;
+  }.cart{
+    margin-left: 5px;
+  }.countryoptions{
+    height: 250px;
+  }.copyrightInformationdiv{
+    
+    width: 100%;
+  }
+}
+/*                               10th response 475px */
+
+@media (max-width:475px){
+  #input{
+    width: 100px;
+  }
+}
+/*                               11th response 475px */
+
+@media (max-width:450px){
+  .container{
+    height: 4200px;
+   
+  }nav{
+    width: 100%;
+  }
+  nav .amazonlogo{
+    width: 50px;
+    margin-left: 5px;
+  }.locationlogo{
+    margin-left: 5px;
+  }#items{
+    margin-left: 5px;
+  }#input{
+    width: 90px;
+  }
+  .cart{
+    margin-right: 0px;
+  }.imgsection{
+    height: 200px;
+  }
+.shoplayout{
+  top: 200px;
+  
+}
+}
+/*                                  12 th setting responsiveness 415px */
+@media (max-width:415px){
+  
+  nav .amazonlogo{
+    width: 40px;
+  }#items{
+    margin-left: 0px;
+  }#input{
+    margin-left: 0px;
+  }
+  nav .searchicon{
+    width: 25px;
+  }.cart{
+    margin-right: 0px;
+  }
+}
+/*                                  13 th setting responsiveness 400px */
+
+@media (max-width:400px){
+  nav .locationlogo{
+    margin-left: 5px;
+  }.moreDetailsfooter{
+    height: 1200px;
+    grid-template-columns: 90%;
+  }
+}
+/*                                  12 th setting responsiveness 390px */
+
+@media (max-width:390px){
+  nav .searchicon{
+    margin-right: 0px;
+  }
+  }
+  /*                                  12 th setting responsiveness 350px */
+
+  @media (max-width:350px){
+    .Return{
+      margin-left: 0px;
+    }.Carticon{
+      width: 15px;
+    }.numberofcartitems{
+      visibility: collapse;
+    }
+  }
