@@ -1,0 +1,719 @@
+* {
+  /* first thing to do while making a website */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #e3e6e6;
+  width: 100%;
+  height: 1200px;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  /* to copy a color use the chrome extension colorzilla and select the color by using the eydroper in the top right of browser. while clicking the code will get copied just paste it in the style section */
+  background-color: #131921;
+  color: white;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+}
+nav .amazonlogo {
+  height: auto;
+  width: 120px;
+  margin-left: 10px;
+}
+nav .amazonlogo:hover {
+  border: 1px white solid;
+  box-sizing: border-box;
+}
+nav .locationlogo {
+  height: auto;
+  width: 15px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.location {
+  margin-left: 5px;
+}
+nav div a {
+  text-decoration: none;
+  color: white;
+}
+#items {
+  margin-left: 20px;
+  width: 3%;
+  height: 70%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  font-size: 10px;
+  padding-left: 5px;
+}
+#items:hover {
+  opacity: 90%;
+}
+#input {
+  height: 70%;
+  width: 43%;
+  box-sizing: border-box;
+  padding-left: 20px;
+  border: none;
+}
+nav .searchicon {
+  height: 70%;
+  width: auto;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+nav .searchicon:hover {
+  opacity: 90%;
+}
+.flagicon {
+  width: 1%;
+  height: a;
+  margin-left: 20px;
+}
+#language {
+  border: none;
+  width: 3%;
+  background-color: #131921;
+  color: white;
+}
+.Account {
+  margin-left: 15px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 70%;
+  width: 8%;
+  padding: 5px;
+}
+.Account:hover {
+  border: 1px white solid;
+}
+.Return {
+  margin-left: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 70%;
+  width: 6%;
+  padding: 5px;
+}
+.Return:hover {
+  border: 1px white solid;
+  box-sizing: border-box;
+}
+.cart {
+  width: 5%;
+  height: 70%;
+  margin-left: 20px;
+  display: flex;
+
+  align-items: center;
+  position: relative;
+}
+.cart:hover {
+  border: 1px white solid;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+.numberofcartitems {
+  width: 20%;
+  height: 40%;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  display: flex;
+  justify-content: center;
+  color: #f08804;
+}
+.Carticon {
+  width: 50%;
+  height: 60%;
+}
+/* second navigation bar */
+.nav2 {
+  width: 100%;
+  height: 40px;
+  background-color: #232f3e;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  gap: 10px;
+}
+.nav2 a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.nav2 a:hover {
+  border: 1px white solid;
+}
+.menubar {
+  width: 50px;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.menuicon {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+.searchicon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.downlink {
+  padding: 0 !important;
+}
+.downloadapp {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  padding: 0;
+}
+.app {
+  width: 270px;
+  height: auto;
+  box-sizing: border-box;
+}
+/* third row image secion */
+#thirdsection {
+  width: 1505px;
+  height: 1000px;
+  margin: 0 auto;
+  /* background-color: red; */
+  position: relative;
+}
+.imgsection {
+  width: 100%;
+  height: 500px;
+
+  background-image: url(./images/background\ image\ 1.jpg);
+
+  background-size: cover;
+}
+.imgsection:hover {
+  transition: 1s;
+  background-image: url(./images/bg\ img2.jpg);
+  transition: 5s ease-in-out;
+}
+.shoplayout {
+  position: absolute;
+  top: 250px;
+  /* background-color: yellow; */
+  width: 1505px;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 420px 420px 420px 300px 300px 300px 300px 420px;
+  justify-content: center;
+  align-content: flex-start;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+.gridsize1 {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+}
+.gridsize2 {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+}
+.gridsize3 {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+}
+.gridsize4 {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+}
+.gridsize5 {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+}
+.gridsize6 {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+}
+.gridsize7 {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+}
+.gridsize8 {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+}
+.gridsoloimg {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.gridshoplink {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 18px;
+}
+.gridshoplink:hover {
+  color: #edc6b6;
+  text-decoration: underline;
+}
+.gridsoloimg1 {
+  width: 100%;
+  margin-top: 10px;
+  height: 290px;
+}
+.internalgrid {
+  width: 100%;
+  height: 270px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+.gridshoplinksub {
+  text-decoration: none;
+  color: black;
+}
+.smallimg {
+  width: 100%;
+  height: 100px;
+}
+.smallimg:hover {
+  cursor: pointer;
+}
+.gridsignin {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.btnsignin {
+  width: 90%;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 18px;
+  border-radius: 5px;
+  background-color: #f7ca00;
+}
+.btnsignin:hover {
+  opacity: 80%;
+}
+.grid4ad {
+  margin-top: 160px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+}
+.adgrid4img {
+  height: 100%;
+  width: auto;
+}
+.widegrid {
+  background-color: white;
+  height: 400px;
+  width: 1480px;
+  padding: 10px;
+  box-sizing: border-box;
+  grid-row: 3;
+  grid-column: 1 / span 4;
+  padding-top: 20px;
+}
+.widegridshoplink {
+  text-decoration: none;
+  color: black;
+}
+.widegridshoplink:hover {
+  text-decoration: underline;
+  color: orange;
+}
+.todaysdeals {
+  display: inline;
+  margin-right: 10px;
+}
+.subwidegrid {
+  width: 100%;
+  height: 300px;
+
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.horizontalgriditems {
+  height: 100%;
+  width: 220px;
+}
+.horizontalgridimg {
+  width: 100%;
+  margin-top: 50px;
+  height: 150px;
+}
+.horizontalgridimg:hover {
+  cursor: pointer;
+}
+
+.horizontalgridprice {
+  width: 100%;
+  height: 80px;
+
+  margin-top: 5px;
+  line-height: 1.5;
+  overflow: hidden;
+}
+.redbox {
+  color: white;
+  background-color: #cc0c39;
+  display: inline-block;
+  width: 100px;
+  height: 25px;
+  box-sizing: border-box;
+  padding-left: 5px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.formargin {
+  margin-top: 10px;
+  color: black;
+}
+.horizontalgridlink {
+  text-decoration: none;
+  color: #cc0c39;
+}
+.widegridsecond {
+  background-color: white;
+  height: 280px;
+  width: 1480px;
+  padding: 10px;
+  box-sizing: border-box;
+  grid-row: 4;
+  grid-column: 1 / span 4;
+  padding-top: 20px;
+}
+.subwidegridsecond {
+  width: 1460px;
+  height: 215px;
+  box-sizing: border-box;
+
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.secondhorgriditems {
+  width: 220px;
+  height: 100%;
+}
+.horGrid2img {
+  width: 100%;
+  height: 90%;
+}
+.horGrid2img:hover {
+  cursor: pointer;
+}
+.widegridthird {
+  background-color: white;
+  height: 280px;
+  width: 1480px;
+  padding: 10px;
+  box-sizing: border-box;
+  grid-row: 5;
+  grid-column: 1 / span 4;
+  padding-top: 20px;
+}
+.widegridfourth {
+  background-color: white;
+  height: 280px;
+  width: 1480px;
+  padding: 10px;
+  box-sizing: border-box;
+  grid-row: 6;
+  grid-column: 1 / span 4;
+  padding-top: 20px;
+}
+.widegridfifth {
+  background-color: white;
+  height: 280px;
+  width: 1480px;
+  padding: 10px;
+  box-sizing: border-box;
+  grid-row: 7;
+  grid-column: 1 / span 4;
+  padding-top: 20px;
+}
+.endsection {
+  width: 100%;
+  height: 700px;
+  background-color: #131a22;
+}
+.btnbacktotop {
+  color: white;
+  width: 100%;
+  height: 50px;
+  background-color: #1a2736;
+}
+.linkbacktotop {
+  text-decoration: none;
+}
+.btnbacktotop:hover {
+  background-color: #232f3e;
+}
+.moreDetailsfooter {
+  width: 100%;
+  height: 300px;
+  background-color: #232f3e;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.moreDetailsdivs {
+  width: 250px;
+  height: 250px;
+
+  box-sizing: border-box;
+  padding: 20px;
+  padding-top: 30px;
+  position: relative;
+}
+.moreDetailsdivs h3 {
+  color: white;
+}
+.moreDetailssubdiv {
+  position: absolute;
+  top: 70px;
+  width: 210px;
+  height: 150px;
+
+  box-sizing: border-box;
+}
+.moreDetailssubdiv a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-top: 10px;
+  font-weight: 100;
+}
+.moreDetailssubdiv a:hover {
+  text-decoration: underline;
+}
+.countryoptions {
+  width: 100%;
+  height: 170px;
+  background-color: #232f3e;
+  border-top: 1px #2e3a48 solid;
+}
+.countryoptions img {
+  width: 150px;
+  height: auto;
+  margin-top: 50px;
+}
+.countryoptionsselection {
+  width: 800px;
+  height: 50px;
+
+  margin-top: 15px;
+  box-sizing: border-box;
+}
+.countryoptionsselection a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin-left: 15px;
+}
+.countryoptionsselection a:hover {
+  text-decoration: underline;
+}
+.copyrightInformation {
+  width: 100%;
+  height: 180px;
+  position: relative;
+  background-color: #131a22;
+  border-top: 1px #2e3a48 solid;
+}
+.copyrightInformationdiv {
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  height: 50px;
+  background-color: #131a22;
+}
+.copyrightInformationdiv a {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: white;
+}
+.copyrightInformationdiv a:hover {
+  text-decoration: underline;
+}
+.copyrightInformationdivcontent {
+  color: white;
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 8px;
+   
+  }
+
+  .container {
+    height: 4000px;
+    
+  }
+  nav .amazonlogo {
+    width: 60px;
+  }
+  nav .locationlogo {
+    margin-left: 20px;
+    width: 10px;
+  }
+  #items {
+    margin-left: 0px;
+    width: 0px;
+    visibility: hidden;
+  }
+  #input {
+    width: 150px;
+    margin-left: 5px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 5px;
+    font-size: 10px;
+    box-sizing: border-box;
+  }
+  nav .searchicon {
+    height: 30px;
+  }
+  .flagicon {
+    margin-left: 1px;
+    visibility: hidden;
+  }
+  #language {
+    width: 0px;
+    visibility: hidden;
+  }
+  .Account {
+    margin-left: 0px;
+    width: 0px;
+    visibility: hidden;
+  }
+  .Return {
+    width: 50px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    padding-top: 15px;
+  }
+  .cart {
+    width: 50px;
+  }
+  .nav2 {
+    height: 0px;
+    visibility: hidden;
+  }
+  #thirdsection {
+    width: 98%;
+    height: 250px;
+  }
+  .imgsection {
+    width: 100%;
+    height: 250px;
+  }
+  .shoplayout {
+    top: 100px;
+    width: 100%;
+    grid-template-columns: 450px;
+    grid-template-rows: repeat(8, 1fr);
+    row-gap: 30px;
+    grid-template-areas: "layout1";
+  }
+  .gridsize1 {
+    grid-area: layout1;
+    font-size: 15px;
+    width: 95%;
+    height: 460px;
+  }
+  .gridsize2 {
+    font-size: 15px;
+    width: 95%;
+    height: 460px;
+  }.gridsize3 {
+    font-size: 15px;
+    width: 95%;
+    height: 460px;
+  }.gridsize4 {
+    font-size: 15px;
+    width: 95%;
+    height: 460px;
+  }.gridsize5 {
+    font-size: 15px;
+    width: 95%;
+    height: 460px;
+  }.gridsize6 {
+    font-size: 15px;
+    width: 95%;
+    height: 460px;
+  }.gridsize7 {
+    font-size: 15px;
+    width: 95%;
+    height: 460px;
+  }.gridsize8 {
+    font-size: 15px;
+    width: 95%;
+    height: 460px;
+  }.countryoptionsselection{
+    width: 70%;
+  }
+}
